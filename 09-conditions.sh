@@ -9,7 +9,7 @@ NUMBER=$1
  #   echo"Given number is less than 100"
 #fi
 
-if [$NUMBER -gt 100]
+if [ $NUMBER -gt 100 ]
 then
     echo "Given number is greater than 100"
 else
